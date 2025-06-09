@@ -110,7 +110,7 @@ main.container-general-login {
     width: 280px;
     margin: -1px; 
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #726363;
     border: 2px solid #5e503f;
     margin-left: 58px;
     position: relative;
@@ -161,6 +161,12 @@ main.container-general-login {
 
 .olvido-contra {
     margin-top: 20px;
+    margin-left: 40px;
+}
+.olvido-contra ul {
+    list-style: none;
+    padding-left: 0; 
+    margin: 0;        
 }
 
 .info {
