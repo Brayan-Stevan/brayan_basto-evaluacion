@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.site-header {
+    background-color: #8bdb56;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid #5e503f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    max-height: 500px;
+    border-color: #5e503f;
+}
+
+.logo {
+    width: 70px;
+    margin: 10px;
+    height: 70px;
+    display: flex;
+    color: #f7f7f7;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.texto-header {
+    margin: 30px;
+    margin-top: 30px;
+    display: flex;
+    color: #5e503f;
+    margin-right: auto;
+}
+
+.texto-header h1 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.opciones {
+    justify-content: space-between;
+    margin-left: auto;
+    color: #f7f7f7;
+    margin-top: -10px;
+}
+
+.nav-links {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #f7f7f7;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.nav-links li a:hover {
+    color: #5e503f;
+    transform: scale(1.05);
+}
+
+.opciones ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.opciones li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.container-general-login {
+    background-color: #8bdb56;
+}
+
+.form-container {
+    width: 280px;
+    margin: -1px; 
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 58px;
+    position: relative;
+    border: 3px solid #5e503f;
+    box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Segoe UI', Roboto, sans-serif;    
+    position: static;
+}
+
+.form-container img {
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+.form-container h5 {
+    margin: 5px;
+    margin-left: 38px;
+    
+}
+
+.input-custom {
+    background-color: #f9f9f9;
+    color:var(--text-dark)    ;          
+    border: 2px solid #5e503f;   
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5e503f;
+}
+
+.enviar {
+    background-color: #f9f9f9;
+    color:var(--text-dark)    ;          
+    border: 2px solid #5e503f;   
+    padding: 4px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #5e503f;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 8px;
+    font-family: apple-system;
+    color:#4e4e4e ;
+}
+
+.olvido-contra {
+    margin-top: 15px;
+}
