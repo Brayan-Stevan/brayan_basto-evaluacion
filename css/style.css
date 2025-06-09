@@ -38,6 +38,15 @@ main.container-general-login {
     align-items: center;
 }
 
+.logo-grande {
+    margin-left: 100px;
+}
+
+.logo-grande img {
+    width: 900px;
+    height: 650px;
+}
+
 .texto-header {
     margin: 30px;
     margin-top: 30px;
