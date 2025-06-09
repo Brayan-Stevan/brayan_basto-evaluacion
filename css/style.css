@@ -1,7 +1,16 @@
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
+}
+
+main.container-general-login {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .site-header {
@@ -61,7 +70,7 @@ body {
 .nav-links li a {
     text-decoration: none;
     font-size: 15px;
-    color: #f7f7f7;
+    color: #5e503f;
     display: inline-block;
     transition: all 0.2s ease;
 }
@@ -85,6 +94,7 @@ body {
 }
 .container-general-login {
     background-color: #8bdb56;
+    
 }
 
 .form-container {
@@ -92,9 +102,9 @@ body {
     margin: -1px; 
     padding: 20px;
     background-color: #ffffff;
+    border: 2px solid #5e503f;
     margin-left: 58px;
     position: relative;
-    border: 3px solid #5e503f;
     box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
     transition: all 0.3s ease-in-out;
     font-family: 'Segoe UI', Roboto, sans-serif;    
@@ -104,7 +114,7 @@ body {
 .form-container img {
     width: 100px;
     height: 100px;
-    margin-left: 55px;
+    margin-left: 60px;
 }
 
 .form-container h5 {
@@ -141,5 +151,35 @@ body {
 }
 
 .olvido-contra {
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+.info {
+    width: 280px;
+    margin: -1px; 
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 1px;
+    border: 2px solid #5e503f;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(49, 48, 48, 0.144);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Segoe UI', Roboto, sans-serif;    
+    position: static;
+}
+
+
+
+.site-footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+.content-todo {
+    display: flex;
+    margin-left: 500px;
+    margin-top: -100px;
 }
